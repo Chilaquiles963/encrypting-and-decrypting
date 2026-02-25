@@ -5,7 +5,7 @@ using namespace std;
 
 // Seceond derivate
 int encryptValue(int x, int y) {
-    int value = (5 * x + y); // Encrypt the letter using (5x + y) and envolve it within the range of the alphabet
+    int value = (5 * x + y); // Encrypt the letter using (5x + y) and put it into the range of the alphabet
     return value % 26; 
 }
 
@@ -72,4 +72,5 @@ int main() {
     cout << "Desencriptado: " << decrypted << endl;
 
     return 0;
+
 }
